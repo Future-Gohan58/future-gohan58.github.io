@@ -6,6 +6,9 @@
     <title>Seed of Might Portal | Watch</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+    <script src="script.js"></script>
     <style>
         body { 
           background-image: url('https://wallpapers.com/images/hd/shenronand-goku-sky-adventure-td3wsgcpsm09tgb0.jpg');
@@ -56,9 +59,9 @@
           <!-- Player Column -->
           <div class="lg:col-span-2">
               <div class="video-container mb-4 shadow-2xl border border-white/10">
-                  <video id="main-video" controls class="w-full h-full" poster="https://via.placeholder.com/1280x720/000000/f97316?text=Select+an+Episode">
-                      <source id="video-source" src="" type="video/mp4">
-                  </video>
+                  <video id="main-video" class="video-js vjs-default-skin w-full h-full" controls preload="auto">
+                    <source id="video-source" src="" type="application/x-mpegURL">
+                </video>
               </div>
               <div class="flex flex-col md:flex-row justify-between items-start md:items-center glass p-6 rounded-xl gap-4">
                   <div>
@@ -93,6 +96,5 @@
       </main>
   </div>
 
-  <script src="script.js"></script>
 </body>
 </html>
