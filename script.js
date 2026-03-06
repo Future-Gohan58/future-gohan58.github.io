@@ -25,7 +25,7 @@ let allEpisodes = [];
             renderList(allEpisodes);
         } catch (err) {
             console.error(err);
-            // Fallback: If JSON is missing, show a helpful message
+            // Fallback: If JSON is missing, show a message
             document.getElementById('episode-list').innerHTML = `
                 <div class="text-center p-8 text-gray-400">
                     <p class="mb-4">No data found for "${seriesKey}".</p>
