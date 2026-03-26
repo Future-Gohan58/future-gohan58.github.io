@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seed of Might Portal | Watch</title>
+    <title>CC Dragon Ball Port | Watch</title>
+    <link rel="icon" type="image/x-icon" href="https://b.thumbs.redditmedia.com/VgpGZUKuANeo3HOjv6t-lZqF31zNAFqTTfdP6q_PYQk.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+    <script src="script.js"></script>
     <style>
         body { 
           background-image: url('https://wallpapers.com/images/hd/shenronand-goku-sky-adventure-td3wsgcpsm09tgb0.jpg');
@@ -18,13 +20,28 @@
           min-height: 100vh;
         }
         .glass { 
-            background: rgba(15, 15, 15, 0.75);
+            /*background: rgba(15, 15, 15, 0.75);*/
             backdrop-filter: blur(12px); 
             border: 1px solid rgba(255, 255, 255, 0.1); 
         }
-        .video-container { aspect-ratio: 16 / 9; background: #000; border-radius: 12px; overflow: hidden; }
+        .video-container { aspect-ratio: 16/9; background: #000; border-radius: 12px; overflow: hidden; }
         .custom-scrollbar::-webkit-scrollbar { width: 5px; }
         .custom-scrollbar::-webkit-scrollbar-thumb { background: #f97316; border-radius: 10px; }
+        .audio-btn { 
+            padding: 6px 12px; 
+            border-radius: 6px; 
+            font-weight: 700; 
+            font-size: 10px; 
+            text-transform: uppercase; 
+            transition: all 0.2s;
+            white-space: nowrap;
+            color: #9ca3af;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        .audio-btn:hover { color: white; }
+        .audio-btn.active { background: #ea580c; color: white; }
     </style>
 </head>
 <body class="p-4 md:p-8">
@@ -60,32 +77,33 @@
               <div class="video-container mb-4 shadow-2xl border border-white/10">
                   <video id="main-video" class="video-js vjs-default-skin w-full h-full" controls preload="auto">
                     <source id="video-source" src="" type="application/x-mpegURL">
-                </video>
+                  </video>
               </div>
-              <div class="flex flex-col md:flex-row justify-between items-start md:items-center glass p-6 rounded-xl gap-4">
-                  <div>
-                      <h2 id="display-title" class="text-xl font-bold">Select an Episode</h2>
-                      <p id="display-meta" class="text-orange-400 text-xs font-bold tracking-widest mt-1 uppercase">Ready to Stream</p>
-                  </div>
-                  <div class="flex flex-col items-end gap-2">
-                      <span class="text-[10px] font-bold text-gray-400 uppercase">Audio Track</span>
-                      <div class="flex bg-black/50 p-1 rounded-lg border border-white/10">
-                          <button onclick="switchLang('en')" id="btn-en" class="px-4 py-1.5 rounded-md bg-orange-600 font-bold text-xs transition uppercase">EN</button>
-                          <button onclick="switchLang('jp')" id="btn-jp" class="px-4 py-1.5 rounded-md font-bold text-xs transition uppercase hover:text-white text-gray-400">JP</button>
+              <div class="glass p-5 rounded-xl">
+                  <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                      <div>
+                          <h2 id="display-title" class="text-xl font-bold">Select an Episode</h2>
+                          <p id="display-meta" class="text-orange-400 text-xs font-bold tracking-widest mt-1 uppercase">Ready to Stream</p>
                       </div>
                   </div>
+                  <!-- Audio track buttons render here dynamically -->
+                  <div>
+                    <p class="text-[10px] font-bold text-gray-400 uppercase mb-2">Audio Track Key</p>
+                    <div id="audio-track-key" class="flex flex-wrap gap-2 text-[10px] text-gray-400">
+                        <span class="text-gray-500">Load an episode to see audio tracks</span>
+                    </div>
+                </div>
               </div>
           </div>
 
           <!-- List Column -->
           <div class="lg:col-span-1">
               <div class="glass rounded-2xl p-5 h-[600px] flex flex-col shadow-xl">
-                  <h3 class="font-bold mb-4 flex items-center gap-2 text-white italic">
+                  <h3 class="font-bold mb-4 flex items-center gap-2 text italic">
                       <i data-lucide="list-video" class="w-5 h-5 text-orange-500"></i> 
                       EPISODE GUIDE
                   </h3>
                   <div id="episode-list" class="flex-grow overflow-y-auto pr-2 custom-scrollbar space-y-2">
-                      <!-- Episodes will be injected here -->
                       <div class="flex items-center justify-center h-full">
                           <i data-lucide="loader-2" class="w-8 h-8 animate-spin text-orange-500"></i>
                       </div>
@@ -94,92 +112,9 @@
           </div>
       </main>
   </div>
-    <script>
-        let allEpisodes = [];
-        let currentEp = null;
-        let lang = 'en';
-
-        // 1. DYNAMIC DATA LOADING
-        async function initPortal() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const seriesKey = urlParams.get('series') || 'db'; // Default to DB
-            
-            // Update Title UI
-            const titles = {
-                'db': 'Dragon Ball',
-                'dbz': 'Dragon Ball Z',
-                'dbzkai': 'Dragon Ball Z Kai',
-                'dbzmovies': 'Movies & Specials',
-                'dbgt':'Dragon Ball GT',
-            };
-            document.getElementById('series-title').innerText = titles[seriesKey] || 'CC Portal';
-
-            try {
-                // This attempts to fetch e.g., "dbz.json" or "db.json"
-                const response = await fetch(`episodes/${seriesKey}.json`);
-                if (!response.ok) throw new Error("JSON not found");
-                allEpisodes = await response.json();
-                renderList(allEpisodes);
-            } catch (err) {
-                console.error(err);
-                // Fallback: If JSON is missing, show a message
-                document.getElementById('episode-list').innerHTML = `
-                    <div class="text-center p-8 text-gray-400">
-                        <p class="mb-4">No data found for "${seriesKey}".</p>
-                        <p class="text-xs">Create a file named <b>${seriesKey}.json</b> to populate this list.</p>
-                    </div>`;
-            }
-            
-            // @ts-ignore
-            lucide.createIcons();
-        }
-
-        function renderList(data) {
-            const list = document.getElementById('episode-list');
-            list.innerHTML = data.map(ep => `
-                <div onclick="playEp(${ep.id})" class="p-3 rounded-lg bg-black/40 hover:bg-orange-600/20 border border-white/5 hover:border-orange-500/50 cursor-pointer transition-all group">
-                    <div class="flex justify-between items-center mb-1">
-                        <span class="text-[10px] text-orange-500 font-black tracking-tighter">EPISODE ${ep.id}</span>
-                        <span class="text-[10px] text-gray-500">${ep.duration}</span>
-                    </div>
-                    <h4 class="text-sm font-bold text-gray-200 group-hover:text-white truncate">${ep.title}</h4>
-                </div>`
-            ).join('');
-        }
-
-        function handleSearch(query) {
-            const filtered = allEpisodes.filter(ep => 
-                ep.title.toLowerCase().includes(query.toLowerCase()) ||
-                ep.id.toString() === query
-            );
-            renderList(filtered);
-        }
-
-        function playEp(id) {
-            currentEp = allEpisodes.find(e => e.id === id);
-            const video = document.getElementById('main-video');
-            const source = document.getElementById('video-source');
-            if (video instanceof HTMLVideoElement && source instanceof HTMLSourceElement) {
-                source.src = lang === 'en' ? currentEp.en : currentEp.jp;
-                video.load();
-                video.play();
-            }
-
-            document.getElementById('display-title').innerText = currentEp.title;
-            document.getElementById('display-meta').innerText = `NOW STREAMING • EPISODE ${currentEp.id}`;
-            
-            if (window.innerWidth < 1024) window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-
-        function switchLang(newLang) {
-            lang = newLang;
-            document.getElementById('btn-en').className = lang === 'en' ? 'px-4 py-1.5 rounded-md bg-orange-600 font-bold text-xs transition uppercase' : 'px-4 py-1.5 rounded-md font-bold text-xs transition uppercase hover:text-white text-gray-400';
-            document.getElementById('btn-jp').className = lang === 'jp' ? 'px-4 py-1.5 rounded-md bg-orange-600 font-bold text-xs transition uppercase' : 'px-4 py-1.5 rounded-md font-bold text-xs transition uppercase hover:text-white text-gray-400';
-            
-            if (currentEp) playEp(currentEp.id);
-        }
-
-        window.onload = initPortal;
-    </script>
+  <br>
+  <footer>
+        <p style="text-align:center; background-color: rgba(0, 0, 0, 0.6)"class="text-orange-400 font-bold tracking-widest uppercase text-sm">Learn the process behind Seed of Might's Color Corrections <a style="color: cadetblue"href="SoM_CC_Process.pdf" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
