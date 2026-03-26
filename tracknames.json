@@ -1,0 +1,29 @@
+[
+    {
+        "series": "db",
+        "audio_1": "Japanese",
+        "audio_2": "Funimation Original",
+        "audio_3": "Funimation Remastered",
+        "audio_4": "Funi / BLT Dub",
+        "audio_5": "Harmony Gold Dub"
+    },
+    {
+        "series": "dbz",
+        "audio_1": "Japanese",
+        "audio_2": "Funimation Remastered (Kikuchi Score)",
+        "audio_3": "Funimation Remastered (Replacement Score)",
+        "audio_4": "Ocean Dub",
+        "audio_5": "Funimation Original"
+    },
+    {
+        "series": "dbzkai",
+        "audio_1": "JPN 2009-10 Yamamoto Score",
+        "audio_2": "JPN 2010-11 Yamamoto Score",
+        "audio_3": "JPN 2011-15 Kikuchi Score",
+        "audio_4": "JPN 2024 Yamamoto Fan Score",
+        "audio_5": "ENG 2010-11 Yamamoto Score",
+        "audio_6": "ENG 2014-25 Yamamoto Revival",
+        "audio_7": "ENG 2015 Yamamoto Fan Score",
+        "audio_8": "ENG 2011-12 Kikuchi Score"
+    }
+]
