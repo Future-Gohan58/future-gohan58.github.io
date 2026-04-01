@@ -21,26 +21,17 @@ function initPortal() {
         controls: true,
         autoplay: false,
         preload: 'auto',
-        fluid: true,
-        html5: { 
-            hls: { 
-                overrideNative: true 
-            },
-            vhs: {
-                overrideNative: true,
-                allowSeeksWithinUnsafeLiveWindow: true,
-                handleManifestRedirects: true,
-            },
-            nativeAudioTracks: false,
-            nativeVideoTracks: false,
-        },
+        fluid: false,
+        fill: true,
+        html5: { hls: { overrideNative: false } },
         controlBar: {
             skipButtons: {
-                backward: 5,
-                forward: 5
+                backward: 10,
+                forward: 10
             }
         }
     });
+
     player.on('keydown', (e) => {
         if (e.key === 'ArrowRight') player.currentTime(player.currentTime() + 10);
         if (e.key === 'ArrowLeft') player.currentTime(player.currentTime() - 10);
@@ -152,7 +143,7 @@ function playEp(id) {
     player.play();
 
     document.getElementById('display-title').innerText = currentEp.title;
-    document.getElementById('display-meta').innerText = `NOW STREAMING • EPISODE ${currentEp.id}`;
+    document.getElementById('display-meta').innerText = `NOW PLAYING • EPISODE ${currentEp.id}`;
 
     console.log(player.duration());
     console.log(player.currentSrc());

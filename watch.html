@@ -9,7 +9,6 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
-    <script src="https://unpkg.com/@videojs/http-streaming@3.10.0/dist/videojs-http-streaming.min.js"></script>
     <script src="script.js"></script>
     <style>
         body { 
@@ -25,7 +24,18 @@
             backdrop-filter: blur(12px); 
             border: 1px solid rgba(255, 255, 255, 0.1); 
         }
-        .video-container { aspect-ratio: 16/9; background: #000; border-radius: 12px; overflow: hidden; }
+        .video-container { 
+            aspect-ratio: 16/9; 
+            background: #000; 
+            border-radius: 12px; 
+            overflow: hidden;
+            position: relative;  /* ADD THIS */
+        }
+
+        .video-container .video-js {
+            width: 100% !important;
+            height: 100% !important;
+        }
         .custom-scrollbar::-webkit-scrollbar { width: 5px; }
         .custom-scrollbar::-webkit-scrollbar-thumb { background: #f97316; border-radius: 10px; }
         .audio-btn { 
