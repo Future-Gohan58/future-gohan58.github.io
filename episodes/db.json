@@ -448,5 +448,55 @@
         "id": 90,
         "title": "Dragon Ball 090 DBOX CC 480p x264-SoM",
         "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_090_DBOX_CC_480p_x264-SoM/master.m3u8"
+    },
+    {
+        "id": 91,
+        "title": "Dragon Ball 091 DBOX CC 480p x264-SoM",
+        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_091_DBOX_CC_480p_x264-SoM/master.m3u8"
+    },
+    {
+        "id": 92,
+        "title": "Dragon Ball 092 DBOX CC 480p x264-SoM",
+        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_092_DBOX_CC_480p_x264-SoM/master.m3u8"
+    },
+    {
+        "id": 93,
+        "title": "Dragon Ball 093 DBOX CC 480p x264-SoM",
+        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_093_DBOX_CC_480p_x264-SoM/master.m3u8"
+    },
+    {
+        "id": 94,
+        "title": "Dragon Ball 094 DBOX CC 480p x264-SoM",
+        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_094_DBOX_CC_480p_x264-SoM/master.m3u8"
+    },
+    {
+        "id": 95,
+        "title": "Dragon Ball 095 DBOX CC 480p x264-SoM",
+        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_095_DBOX_CC_480p_x264-SoM/master.m3u8"
+    },
+    {
+        "id": 96,
+        "title": "Dragon Ball 096 DBOX CC 480p x264-SoM",
+        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_096_DBOX_CC_480p_x264-SoM/master.m3u8"
+    },
+    {
+        "id": 97,
+        "title": "Dragon Ball 097 DBOX CC 480p x264-SoM",
+        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_097_DBOX_CC_480p_x264-SoM/master.m3u8"
+    },
+    {
+        "id": 98,
+        "title": "Dragon Ball 098 DBOX CC 480p x264-SoM",
+        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_098_DBOX_CC_480p_x264-SoM/master.m3u8"
+    },
+    {
+        "id": 99,
+        "title": "Dragon Ball 099 DBOX CC 480p x264-SoM",
+        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_099_DBOX_CC_480p_x264-SoM/master.m3u8"
+    },
+    {
+        "id": 100,
+        "title": "Dragon Ball 100 DBOX CC 480p x264-SoM",
+        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_100_DBOX_CC_480p_x264-SoM/master.m3u8"
     }
 ]
