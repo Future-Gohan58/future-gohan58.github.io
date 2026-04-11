@@ -1,765 +1,155 @@
 [
-    {
-        "id": 1,
-        "title": "The Secret of the Dragon Balls",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_001_DBOX_CC_480p_x264-SoM-FIXED/master.m3u8"
-    },
-    {
-        "id": 2,
-        "title": "The Emperor's Quest",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_002_DBOX_CC_480p_x264-SoM-FIXED/master.m3u8"
-    },
-    {
-        "id": 3,
-        "title": "The Nimbus Cloud of Roshi",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_003_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 4,
-        "title": "Oolong the Terrible",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_004_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 5,
-        "title": "Yamcha the Desert Bandit",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_005_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 6,
-        "title": "Keep an Eye on the Dragon Balls",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_006_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 7,
-        "title": "The Ox King on Fire Mountain",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_007_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 8,
-        "title": "The Kamehameha Wave",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_008_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 9,
-        "title": "Boss Rabbit's Magic Touch",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_009_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 10,
-        "title": "The Dragon Balls are Stolen!",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_010_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 11,
-        "title": "The Penalty is Pinball",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_011_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 12,
-        "title": "A Wish to the Eternal Dragon",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_012_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 13,
-        "title": "The Legend of Goku",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_013_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 14,
-        "title": "Goku's Rival",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_014_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 15,
-        "title": "Look out for Launch",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_015_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 16,
-        "title": "Find That Stone!",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_016_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 17,
-        "title": "Milk Delivery",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_017_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 18,
-        "title": "The Turtle Hermit Way",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_018_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 19,
-        "title": "The Tournament Begins",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_019_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 20,
-        "title": "Eliminations Round",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_020_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 21,
-        "title": "Smells Like Trouble",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_021_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 22,
-        "title": "Quarterfinals Begin",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_022_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 23,
-        "title": "Monster Beast Giran",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_023_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 24,
-        "title": "Krillin's Frantic Attack",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_024_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 25,
-        "title": "Danger From Above",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_025_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 26,
-        "title": "The Grand Finals",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_026_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 27,
-        "title": "Number One Under the Moon?",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_027_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 28,
-        "title": "The Final Blow",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_028_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 29,
-        "title": "The Roaming Lake",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_029_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 30,
-        "title": "Pilaf and the Mystery Force",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_030_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 31,
-        "title": "Dragon Ball 031 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_031_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 32,
-        "title": "Dragon Ball 032 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_032_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 33,
-        "title": "Dragon Ball 033 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_033_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 34,
-        "title": "Dragon Ball 034 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_034_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 35,
-        "title": "Dragon Ball 035 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_035_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 36,
-        "title": "Dragon Ball 036 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_036_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 37,
-        "title": "Dragon Ball 037 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_037_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 38,
-        "title": "Dragon Ball 038 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_038_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 39,
-        "title": "Dragon Ball 039 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_039_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 40,
-        "title": "Dragon Ball 040 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_040_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 41,
-        "title": "Dragon Ball 041 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_041_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 42,
-        "title": "Dragon Ball 042 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_042_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 43,
-        "title": "Dragon Ball 043 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_043_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 44,
-        "title": "Dragon Ball 044 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_044_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 45,
-        "title": "Dragon Ball 045 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_045_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 46,
-        "title": "Dragon Ball 046 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_046_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 47,
-        "title": "Dragon Ball 047 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_047_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 48,
-        "title": "Dragon Ball 048 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_048_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 49,
-        "title": "Dragon Ball 049 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_049_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 50,
-        "title": "Dragon Ball 050 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_050_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 51,
-        "title": "Dragon Ball 051 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_051_DBOX_CC_480p_x264-SoM-FIXED/master.m3u8"
-    },
-    {
-        "id": 52,
-        "title": "Dragon Ball 052 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_052_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 53,
-        "title": "Dragon Ball 053 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_053_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 54,
-        "title": "Dragon Ball 054 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_054_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 55,
-        "title": "Dragon Ball 055 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_055_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 56,
-        "title": "Dragon Ball 056 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_056_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 57,
-        "title": "Dragon Ball 057 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_057_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 58,
-        "title": "Dragon Ball 058 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_058_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 59,
-        "title": "Dragon Ball 059 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_059_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 60,
-        "title": "Dragon Ball 060 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_060_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 61,
-        "title": "Dragon Ball 061 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_061_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 62,
-        "title": "Dragon Ball 062 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_062_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 63,
-        "title": "Dragon Ball 063 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_063_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 64,
-        "title": "Dragon Ball 064 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_064_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 65,
-        "title": "Dragon Ball 065 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_065_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 66,
-        "title": "Dragon Ball 066 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_066_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 67,
-        "title": "Dragon Ball 067 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_067_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 68,
-        "title": "Dragon Ball 068 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_068_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 69,
-        "title": "Dragon Ball 069 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_069_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 70,
-        "title": "Dragon Ball 070 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_070_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 71,
-        "title": "Dragon Ball 071 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_071_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 72,
-        "title": "Dragon Ball 072 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_072_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 73,
-        "title": "Dragon Ball 073 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_073_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 74,
-        "title": "Dragon Ball 074 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_074_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 75,
-        "title": "Dragon Ball 075 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_075_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 76,
-        "title": "Dragon Ball 076 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_076_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 77,
-        "title": "Dragon Ball 077 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_077_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 78,
-        "title": "Dragon Ball 078 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_078_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 79,
-        "title": "Dragon Ball 079 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_079_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 80,
-        "title": "Dragon Ball 080 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_080_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 81,
-        "title": "Dragon Ball 081 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_081_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 82,
-        "title": "Dragon Ball 082 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_082_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 83,
-        "title": "Dragon Ball 083 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_083_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 84,
-        "title": "Dragon Ball 084 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_084_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 85,
-        "title": "Dragon Ball 085 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_085_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 86,
-        "title": "Dragon Ball 086 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_086_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 87,
-        "title": "Dragon Ball 087 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_087_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 88,
-        "title": "Dragon Ball 088 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_088_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 89,
-        "title": "Dragon Ball 089 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_089_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 90,
-        "title": "Dragon Ball 090 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_090_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 91,
-        "title": "Dragon Ball 091 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_091_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 92,
-        "title": "Dragon Ball 092 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_092_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 93,
-        "title": "Dragon Ball 093 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_093_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 94,
-        "title": "Dragon Ball 094 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_094_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 95,
-        "title": "Dragon Ball 095 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_095_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 96,
-        "title": "Dragon Ball 096 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_096_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 97,
-        "title": "Dragon Ball 097 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_097_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 98,
-        "title": "Dragon Ball 098 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_098_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 99,
-        "title": "Dragon Ball 099 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_099_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 100,
-        "title": "Dragon Ball 100 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_100_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 101,
-        "title": "Dragon Ball 101 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_101_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 102,
-        "title": "Dragon Ball 102 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_102_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 103,
-        "title": "Dragon Ball 103 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_103_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 104,
-        "title": "Dragon Ball 104 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_104_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 105,
-        "title": "Dragon Ball 105 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_105_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 106,
-        "title": "Dragon Ball 106 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_106_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 107,
-        "title": "Dragon Ball 107 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_107_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 108,
-        "title": "Dragon Ball 108 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_108_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 109,
-        "title": "Dragon Ball 109 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_109_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 110,
-        "title": "Dragon Ball 110 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_110_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 111,
-        "title": "Dragon Ball 111 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_111_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 112,
-        "title": "Dragon Ball 112 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_112_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 113,
-        "title": "Dragon Ball 113 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_113_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 114,
-        "title": "Dragon Ball 114 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_114_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 115,
-        "title": "Dragon Ball 115 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_115_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 116,
-        "title": "Dragon Ball 116 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_116_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 117,
-        "title": "Dragon Ball 117 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_117_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 118,
-        "title": "Dragon Ball 118 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_118_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 119,
-        "title": "Dragon Ball 119 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_119_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 120,
-        "title": "Dragon Ball 120 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_120_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {   "id": 121,
-        "title": "Dragon Ball 121 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_121_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 122,
-        "title": "Dragon Ball 122 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_122_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 123,
-        "title": "Dragon Ball 123 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_123_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 124,
-        "title": "Dragon Ball 124 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_124_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 125,
-        "title": "Dragon Ball 125 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_125_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 126,
-        "title": "Dragon Ball 126 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_126_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 127,
-        "title": "Dragon Ball 127 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_127_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 128,
-        "title": "Dragon Ball 128 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_128_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 129,
-        "title": "Dragon Ball 129 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_129_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 130,
-        "title": "Dragon Ball 130 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_130_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {   "id": 131,
-        "title": "Dragon Ball 131 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_131_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 132,
-        "title": "Dragon Ball 132 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_132_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 133,
-        "title": "Dragon Ball 133 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_133_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 134,
-        "title": "Dragon Ball 134 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_134_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 135,
-        "title": "Dragon Ball 135 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_135_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 136,
-        "title": "Dragon Ball 136 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_136_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 137,
-        "title": "Dragon Ball 137 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_137_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 138,
-        "title": "Dragon Ball 138 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_138_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 139,
-        "title": "Dragon Ball 139 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_139_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 140,
-        "title": "Dragon Ball 140 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_140_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 141,
-        "title": "Dragon Ball 141 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_141_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 142,
-        "title": "Dragon Ball 142 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_142_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 143,
-        "title": "Dragon Ball 143 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_143_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 144,
-        "title": "Dragon Ball 144 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_144_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 145,
-        "title": "Dragon Ball 145 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_145_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 146,
-        "title": "Dragon Ball 146 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_146_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 147,
-        "title": "Dragon Ball 147 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_147_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 148,
-        "title": "Dragon Ball 148 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_148_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 149,
-        "title": "Dragon Ball 149 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_149_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 150,
-        "title": "Dragon Ball 150 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_150_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 151,
-        "title": "Dragon Ball 151 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_151_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 152,
-        "title": "Dragon Ball 152 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_152_DBOX_CC_480p_x264-SoM/master.m3u8"
-    },
-    {
-        "id": 153,
-        "title": "Dragon Ball 153 DBOX CC 480p x264-SoM",
-        "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_153_DBOX_CC_480p_x264-SoM/master.m3u8"
-    }
+    {"id": 1, "title": "The Secret of the Dragon Balls", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_001_DBOX_CC_480p_x264-SoM-FIXED/master.m3u8"},
+    {"id": 2, "title": "The Emperor's Quest", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_002_DBOX_CC_480p_x264-SoM-FIXED/master.m3u8"},
+    {"id": 3, "title": "The Nimbus Cloud of Roshi", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_003_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 4, "title": "Oolong the Terrible", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_004_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 5, "title": "Yamcha the Desert Bandit", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_005_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 6, "title": "Keep an Eye on the Dragon Balls", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_006_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 7, "title": "The Ox King on Fire Mountain", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_007_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 8, "title": "The Kamehameha Wave", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_008_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 9, "title": "Boss Rabbit's Magic Touch", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_009_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 10, "title": "The Dragon Balls are Stolen!", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_010_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 11, "title": "The Penalty is Pinball", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_011_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 12, "title": "A Wish to the Eternal Dragon", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_012_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 13, "title": "The Legend of Goku", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_013_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 14, "title": "Goku's Rival", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_014_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 15, "title": "Look out for Launch", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_015_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 16, "title": "Find That Stone!", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_016_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 17, "title": "Milk Delivery", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_017_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 18, "title": "The Turtle Hermit Way", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_018_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 19, "title": "The Tournament Begins", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_019_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 20, "title": "Elimination Round", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_020_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 21, "title": "Smells Like Trouble", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_021_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 22, "title": "Quarterfinals Begin", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_022_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 23, "title": "Monster Beast Giran", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_023_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 24, "title": "Krillin's Frantic Attack!", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_024_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 25, "title": "Danger From Above", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_025_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 26, "title": "The Grand Finals", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_026_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 27, "title": "Number One Under the Moon?", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_027_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 28, "title": "The Final Blow", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_028_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 29, "title": "The Roaming Lake", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_029_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 30, "title": "Pilaf and the Mystery Force", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_030_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 31, "title": "Wedding Plans?", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_031_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 32, "title": "The Flying Fortress \u2013 Vanished!", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_032_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 33, "title": "The Legend of a Dragon", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_033_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 34, "title": "Cruel General Red", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_034_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 35, "title": "Cold Reception", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_035_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 36, "title": "Major Metallitron", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_036_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 37, "title": "Ninja Murasaki is Coming!", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_037_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 38, "title": "Five Murasakis", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_038_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 39, "title": "Mysterious Android No. 8", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_039_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 40, "title": "Horrifying Buyon", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_040_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 41, "title": "The Fall of Muscle Tower", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_041_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 42, "title": "The Secret of Dr. Flappe", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_042_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 43, "title": "A Trip to the City", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_043_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 44, "title": "Master Thief, Hasky", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_044_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 45, "title": "Danger in the Air", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_045_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 46, "title": "Bulma's Bad Day", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_046_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 47, "title": "Kame House - Found!", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_047_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 48, "title": "Deep Blue Sea", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_048_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 49, "title": "Roshi Surprise", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_049_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 50, "title": "The Trap is Sprung", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_050_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 51, "title": "Beware of Robot", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_051_DBOX_CC_480p_x264-SoM-FIXED/master.m3u8"},
+    {"id": 52, "title": "The Pirate Treasure", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_052_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 53, "title": "Blue, Black and Blue", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_053_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 54, "title": "Escape From Pirate Cave", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_054_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 55, "title": "Penguin Village", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_055_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 56, "title": "Strange Visitor", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_056_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 57, "title": "Arale vs. Blue", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_057_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 58, "title": "The Land of Korin", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_058_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 59, "title": "The Notorious Mercenary", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_059_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 60, "title": "Tao Attacks!", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_060_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 61, "title": "Korin Tower", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_061_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 62, "title": "Sacred Water", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_062_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 63, "title": "The Return of Goku", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_063_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 64, "title": "The Last of Mercenary Tao", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_064_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 65, "title": "Confront the Red Ribbon Army", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_065_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 66, "title": "A Real Bind", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_066_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 67, "title": "The End of Commander Red", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_067_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 68, "title": "The Last Dragon Ball", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_068_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 69, "title": "Who is Fortuneteller Baba?", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_069_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 70, "title": "We Are the Five Warriors", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_070_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 71, "title": "Deadly Battle", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_071_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 72, "title": "Goku's Turn", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_072_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 73, "title": "The Devilmite Beam", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_073_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 74, "title": "The Mysterious Fifth Man", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_074_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 75, "title": "The Strong Ones", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_075_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 76, "title": "True Colors of the Masked Man", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_076_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 77, "title": "Pilaf's Tactics", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_077_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 78, "title": "The Eternal Dragon Rises", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_078_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 79, "title": "Terror and Plague", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_079_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 80, "title": "Goku vs. Sky Dragon", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_080_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 81, "title": "Goku Goes to Demon Land", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_081_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 82, "title": "The Rampage of InoShikaCho", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_082_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 83, "title": "Which Way to Papaya Island?", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_083_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 84, "title": "Rivals and Arrivals", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_084_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 85, "title": "Preliminary Peril", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_085_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 86, "title": "Then There Were Eight", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_086_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 87, "title": "Yamcha vs. Tien", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_087_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 88, "title": "Yamcha's Big Break", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_088_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 89, "title": "Full-Moon Vengeance", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_089_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 90, "title": "The Dodon Wave", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_090_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 91, "title": "Counting Controversy!!", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_091_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 92, "title": "Goku Enters the Ring", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_092_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 93, "title": "Tien Shinhan vs. Jackie Chun", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_093_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 94, "title": "Stepping Down", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_094_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 95, "title": "Goku vs. Krillin", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_095_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 96, "title": "Tail's Tale", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_096_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 97, "title": "Final Match: Goku vs. Tien", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_097_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 98, "title": "Victory's Edge", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_098_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 99, "title": "Tien's Insurrection", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_099_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 100, "title": "The Spirit Cannon", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_100_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 101, "title": "The Fallen", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_101_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 102, "title": "Enter King Piccolo", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_102_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 103, "title": "Tambourine Attacks!", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_103_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 104, "title": "Mark of the Demon", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_104_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 105, "title": "Here Comes Yajirobe", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_105_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 106, "title": "Terrible Tambourine", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_106_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 107, "title": "Tien's Atonement", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_107_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 108, "title": "Goku's Revenge", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_108_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 109, "title": "Goku vs. King Piccolo", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_109_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 110, "title": "Piccolo Closes In", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_110_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 111, "title": "Roshi's Gambit", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_111_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 112, "title": "King Piccolo's Wish", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_112_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 113, "title": "Siege on Chow Castle", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_113_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 114, "title": "Conquest and Power", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_114_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 115, "title": "Awaken Darkness", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_115_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 116, "title": "A Taste of Destiny", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_116_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 117, "title": "The Ultimate Sacrifice", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_117_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 118, "title": "Prelude to Vengeance", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_118_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 119, "title": "Battle Cry", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_119_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 120, "title": "Goku Strikes Back", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_120_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 121, "title": "The Biggest Crisis", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_121_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 122, "title": "Final Showdown", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_122_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 123, "title": "Lost and Found", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_123_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 124, "title": "Temple Above the Clouds", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_124_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 125, "title": "Earth's Guardian Emerges", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_125_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 126, "title": "Eternal Dragon Resurrected", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_126_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 127, "title": "Quicker Than Lightning", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_127_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 128, "title": "Secret of the Woods", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_128_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 129, "title": "The Time Room", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_129_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 130, "title": "Goku's Doll", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive_202603/Dragon_Ball_130_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 131, "title": "Walking Their Own Ways", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_131_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 132, "title": "Hotter Than Lava", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_132_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 133, "title": "Changes", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_133_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 134, "title": "Preliminary Peril", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_134_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 135, "title": "Battle of the Eight", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_135_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 136, "title": "Tien Shinhan vs. Mercenary Tao", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_136_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 137, "title": "Anonymous Proposal", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_137_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 138, "title": "The Mysterious Hero", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_138_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 139, "title": "Rematch", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_139_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 140, "title": "Goku Gains Speed", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_140_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 141, "title": "The Four Faces of Tien", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_141_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 142, "title": "Kami vs. Piccolo", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_142_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 143, "title": "Battle for the Future", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_143_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 144, "title": "Super Kamehameha", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_144_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 145, "title": "Junior No More", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_145_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 146, "title": "Goku's Trap", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_146_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 147, "title": "Goku Hangs On", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_147_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 148, "title": "The Victor", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_148_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 149, "title": "Dress in Flames", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_149_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 150, "title": "The Fire-Eater", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_150_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 151, "title": "Outrageous Octagon", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_151_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 152, "title": "Mystery of the Dark World", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_152_DBOX_CC_480p_x264-SoM/master.m3u8"},
+    {"id": 153, "title": "The End, The Beginning", "hls": "https://cors.archive.org/cors/cc-dragon-ball-archive-202603/Dragon_Ball_153_DBOX_CC_480p_x264-SoM/master.m3u8"}
 ]
